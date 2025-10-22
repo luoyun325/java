@@ -20,6 +20,9 @@ public class Exce03 {
             else{
                 i--;
                 System.out.println("输入错误！您还有"+i+"次机会！");
+                if(i==0){
+                    System.out.println("对不起，您3次均输入错误！");
+                }
             }
         }
     }
